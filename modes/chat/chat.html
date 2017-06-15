@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/mui.css" />
+		<link rel="stylesheet" type="text/css" href="../../common/app.css" />
+		<link rel="stylesheet" type="text/css" href="../../common/fonts/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="chat.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back  mui-pull-left"><i class="mui-icon mui-icon-left-nav"></i>微信</a>
+			<h1 class="mui-title">张紫薇</h1>
+			<a class="mui-pull-right"><i class="mui-icon mui-icon-person"></i></a>
+		</header>
+		<div class="mui-content">
+			<div class="chat-list">
+				<div class="chat-box-time">
+					<span class="chat-time">昨天10:00</span>
+				</div>
+				<!--左边气泡-->
+				<div class="chat-box chat-box-left mui-content-padded mui-clearfix">
+					<img src="zhangsan.png" class="chat-avatar" />
+					<div class="chat-content">
+						<div class="chat-content-inner">
+							弄啥咧
+						</div>
+						<div class="chat-content-arrow">
+							
+						</div>
+					</div>
+				</div>
+				<!--右边边气泡-->
+				<div class="chat-box chat-box-right mui-content-padded mui-clearfix">
+					<img src="lisi.png" class="chat-avatar" />
+					<div class="chat-content">
+						<div class="chat-content-inner">
+							敲代码呀
+						</div>
+						<div class="chat-content-arrow">
+							
+						</div>
+					</div>
+				</div>
+				<div class="chat-box chat-box-left mui-content-padded mui-clearfix">
+					<img src="zhangsan.png" class="chat-avatar" />
+					<div class="chat-content">
+						<div class="chat-content-inner">
+							能不能歇会儿?
+						</div>
+						<div class="chat-content-arrow">
+							
+						</div>
+					</div>
+				</div>
+				<!--右边边气泡-->
+				<div class="chat-box chat-box-right mui-content-padded mui-clearfix">
+					<img src="lisi.png" class="chat-avatar" />
+					<div class="chat-content">
+						<div class="chat-content-inner">
+							嗯?看在你的面子上就歇会儿吧
+						</div>
+						<div class="chat-content-arrow">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-left">
+				<i class="mui-icon iconfont icon-voice"></i>
+			</div>
+			<div class="footer-center">
+				<textarea class="input-text" id="msg-input"></textarea>
+			</div>
+			<div class="footer-right">
+				<i class="mui-icon iconfont icon-emoticons" id="emoticons"></i>
+				<i class="mui-icon iconfont icon-more" id="more"></i>
+				<button type="button" class="mui-btn mui-btn-red mui-btn-block" id="send">发送</button>
+			</div>
+		</footer>
+		<script src="../../common/mui.js"></script>
+		<script src="chat.js"></script>
+	</body>
+
+</html>

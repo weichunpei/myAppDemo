@@ -1,0 +1,71 @@
+mui.init();
+mui.plusReady(function(){
+	//手动关闭启动页
+	plus.navigator.closeSplashscreen();
+})
+mui.ready(function(){
+	
+	document.getElementById("login").addEventListener('tap',function(){
+		//做一个标记,告诉程序,我已经打开过引导页面了,下次不要打开
+		plus.storage.setItem('launchFlag','true');
+//		localStorage.setItem()
+		//跳转到登录界面
+		mui.openWindow({
+			url:'../login/login.html',
+			id:'login',
+			style:{
+   				popGusture:'none'
+      			},
+			show:{
+				aniShow:'none'
+			}
+		})
+	})
+	
+	document.getElementById("register").addEventListener('tap',function(){
+		//做一个标记,告诉程序,我已经打开过引导页面了,下次不要打开
+		plus.storage.setItem('launchFlag','true');
+//		localStorage.setItem()
+		//跳转到注册界面
+		mui.openWindow({
+			url:'../register/register.html',
+			id:'login',
+			style:{
+   				popGusture:'none'
+      			},
+			show:{
+				aniShow:'none'
+			}
+		})
+	})
+})
+      	mui.plusReady(function(){
+      		//引导页只有在第一次进入才会进入
+      		if(plus.storage.getItem('launchFlag')){
+      			//表示已经启动过引导页了,不需要造次进入引导页,直接跳转到登录页			
+      			mui.openWindow({
+      			url:'guide/login/login.html',
+      			id:'login',
+      			style:{
+   				popGusture:'none'
+      			},
+      			show:{
+      				aniShow:'none'
+      			}
+      		})
+      		}else{
+      			//跳转到引导页面
+      		
+      		mui.openWindow({
+      			url:'guide/guide.html',
+      			id:'guid',
+      			style:{
+   				popGusture:'none'
+      			},
+      			show:{
+      				aniShow:'none'
+      			}
+      		})
+      		}
+      		
+      	})

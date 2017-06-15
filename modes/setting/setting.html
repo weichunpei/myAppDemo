@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/mui.css" />
+		<link rel="stylesheet" type="text/css" href="setting.css" />
+		<link rel="stylesheet" type="text/css" href="../../common/app.css"/>
+		<script src="../../common/mui.js" type="text/javascript" charset="utf-8"></script>
+	</head>		
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-pull-left"><i class="mui-icon mui-icon-left-nav "></i></a>
+		    <h1 class="mui-title">设置</h1>
+		</header>
+		<div class="mui-content">
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    <span>账号和安全</span>
+		                    <div class="safe-status">
+		                    	<img src="lock.png" alt="" />
+		                    	<span>已保护</span>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    新消息通知
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    隐私
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    通用
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    帮助与反馈
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    关于微信
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="mui-table-view">
+		            <li class="mui-table-view-cell mui-text-center">
+		                <a href="#sheet" >
+		                    退出登录
+		                </a>
+		            </li>
+		        </ul>
+		        <div id="sheet" class="mui-popover mui-popover-bottom mui-popover-action ">
+		            <!-- 可选择菜单 -->
+		            <ul class="mui-table-view">
+		              <li class="mui-table-view-cell loginout-tip">
+		                推出以后不会删除任何历史记录,下次登录一样可以使用本账号
+		              </li>
+		              <li class="mui-table-view-cell">
+		                <a href="#" id='loginout'>退出登录</a>
+		              </li>
+		            </ul>
+		            <!-- 取消菜单 -->
+		            <ul class="mui-table-view cancel-box">
+		              <li class="mui-table-view-cell">
+		                <a href="#sheet1" id="cancel">取消</a>
+		              </li>
+		            </ul>
+		        </div>
+		        
+		</div>
+		<script src="setting.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

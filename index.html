@@ -6,42 +6,11 @@
     <title></title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet"/>
-    
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
 </head>
 <body>
-	我是入口页面
-	<script type="text/javascript" charset="utf-8">
-      	mui.init();
-      	mui.plusReady(function(){
-      		//引导页只有在第一次进入才会进入
-      		if(plus.storage.getItem('launchFlag')){
-      			//表示已经启动过引导页了,不需要造次进入引导页,直接跳转到登录页			
-      			mui.openWindow({
-      			url:'guide/login/login.html',
-      			id:'login',
-      			style:{
-   				popGusture:'none'
-      			},
-      			show:{
-      				aniShow:'none'
-      			}
-      		})
-      		}else{
-      			//跳转到引导页面
-      		
-      		mui.openWindow({
-      			url:'guide/guide.html',
-      			id:'guid',
-      			style:{
-   				popGusture:'none'
-      			},
-      			show:{
-      				aniShow:'none'
-      			}
-      		})
-      		}
-      		
-      	})
-    </script>
+	
 </body>
 </html>

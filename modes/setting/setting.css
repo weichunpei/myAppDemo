@@ -1,0 +1,35 @@
+.mui-table-view{
+	margin-bottom: 25px;
+}
+.safe-status{
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+	color: gray;
+	height: 16px;
+}
+.safe-status img{
+	height: 16px;
+	margin-right: 5px;
+	vertical-align: middle;
+	
+}
+/*修改Actionsheet样式*/
+.mui-popover.mui-popover-action .mui-table-view {
+    margin: 0px;
+    color: #000000;
+    border-radius: 0px;
+}
+.loginout-tip{
+	font-size: 14px;
+	color: gray;
+}
+#loginout{
+	color: #da4442;
+}
+.cancel-box{
+	margin-top: 5px !important;
+}
+#sheet{
+	background-color: #e8e8ee;
+}

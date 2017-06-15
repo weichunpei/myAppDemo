@@ -1,0 +1,27 @@
+body{
+	background-color: #FFFFFF;
+}
+.mui-content-padded{
+	margin-top: 25px;margin-bottom: 25px;
+}
+.question{
+	color: #3058bf;
+}
+.mui-btn{
+	padding: 10px;
+}
+.mui-input-group:before,.mui-input-group:after{
+	height: 0;
+}
+.mui-input-row label{
+	font-weight: 600;
+}
+#btn-register{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	padding: 5px;
+	/*color: gray;*/
+	/*border-color: gray;*/
+	cursor: pointer;
+}

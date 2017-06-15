@@ -1,0 +1,31 @@
+body{
+	background-color: #FFFFFF;
+}
+.mui-content-padded{
+	margin-top: 25px;margin-bottom: 25px;
+}
+.question{
+	color: #3058bf;
+}
+.mui-btn{
+	padding: 10px;
+}
+.mui-input-group:before,.mui-input-group:after{
+	height: 0;
+}
+.mui-input-row label{
+	font-weight: 600;
+}
+#send-phone{
+	position: absolute;
+	right: 8%;
+	padding: 2px;
+	top: 8px;
+	width: 88px;
+}
+#check-flag{
+	position: absolute;
+	right: 10%;
+	top: 11px;
+	display: none;
+}

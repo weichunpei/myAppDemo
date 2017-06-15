@@ -1,0 +1,11 @@
+body,html{
+	background-color: #FFFFFF;
+}
+.list-time {
+	font-size: 12px;
+	float: right;
+	color: #8F8F94;
+}
+.list-nickname{
+	font-weight: 600px;
+}
